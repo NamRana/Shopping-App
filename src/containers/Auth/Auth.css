@@ -1,0 +1,36 @@
+.auth-main{
+    width: 90%;
+    margin: 4rem auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.auth__form {
+    width: 90%;
+    margin: auto;
+}
+
+.auth__form h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.auth__mode-control {
+    text-align: center;
+    margin: 1rem;
+}
+
+@media (min-width: 768px) {
+    .auth-main{
+        width: 90%;
+        margin: 4rem auto;
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }
+    
+    .auth__form {
+        width: 40rem;
+    }
+}
